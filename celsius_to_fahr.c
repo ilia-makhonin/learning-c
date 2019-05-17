@@ -12,7 +12,7 @@ int main()
 	int celsius;
 	for (celsius = LOWER; celsius <= UPPER; celsius = celsius + STEP)
 	{
-		printf("%d %6.2f\n", celsius, (celsius * 9.0 / 5.0 + 32.0));
+		printf("%d %6.2f\n", celsius, (celsius * (9.0 / 5.0) + 32.0));
 	}
 	return 0;
 }

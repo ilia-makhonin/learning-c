@@ -10,5 +10,5 @@ int main()
 		++nc;
 		printf("%ld\n", nc);
 	}
-	return 0:
+	return 0;
 }
